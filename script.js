@@ -53,9 +53,12 @@ document.addEventListener("DOMContentLoaded", function() {
       // Simulación de búsqueda en el catálogo (array de ejemplo)
       const catalogo = [
         { nombre: "rolex submariner" },
-        { nombre: "patek philippe nautilus" },
-        { nombre: "rolex daytona" },
-        { nombre: "omega speedmaster" }
+        { nombre: "rolex gmt-master II" },
+        { nombre: "rolex day-date 36" },
+        { nombre: "patek philippe aquanaut" },
+        { nombre: "patek philippe calatrava" },
+        { nombre: "colgante de mujer maria"},
+        { nombre: "colgante de mujer abtei"}
       ];
       const found = catalogo.find(item => item.nombre.includes(query));
       if (found) {
